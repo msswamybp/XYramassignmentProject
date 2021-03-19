@@ -1,0 +1,844 @@
+{
+    "resourceType": "Bundle",
+    "id": "b5374679-fea6-4b28-a0ff-8cf9889e0280",
+    "meta": {
+      "lastUpdated": "2021-02-11T05:00:04.230+00:00"
+    },
+    "type": "searchset",
+    "total": 7,
+    "link": [
+      {
+        "relation": "self",
+        "url": "https://demo.interopx.com/InteropXFHIR/fhir/Patient?_format=json&search-offset=0&_count=30"
+      }
+    ],
+    "entry": [
+      {
+        "resource": {
+          "resourceType": "Patient",
+          "id": "f47f7d79-f5a7-44af-af21-5f94034443ae",
+          "meta": {
+            "versionId": "1.0",
+            "lastUpdated": "2021-02-04T07:06:35.477+00:00"
+          },
+          "extension": [
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-datasourceId-extension",
+              "valueString": "10001"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-extractionId-extension",
+              "valueString": "10001"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-datasetId-extension",
+              "valueString": "10001"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-interopxId-extension",
+              "valueString": "IX-PATIENT-NiWbvu"
+            }
+          ],
+          "identifier": [
+            {
+              "use": "official",
+              "system": "urn:oid:2.16.840.1.113883.4.6",
+              "value": "1"
+            },
+            {
+              "use": "official",
+              "system": "urn:oid:2.16.840.1.113883.4.1",
+              "value": "123-111-5451"
+            }
+          ],
+          "name": [
+            {
+              "use": "usual",
+              "family": "Doe",
+              "given": [
+                "Jane",
+                "Jinnie"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "(816)234-6909",
+              "use": "home"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1978-04-15",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "456 Dove Street"
+              ],
+              "city": "NewYork",
+              "state": "NY",
+              "postalCode": "10005",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+              }
+            ]
+          },
+          "contact": [
+            {
+              "relationship": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                      "code": "O",
+                      "display": "Other"
+                    }
+                  ]
+                }
+              ],
+              "name": {
+                "family": "Doe",
+                "given": [
+                  "Jammie"
+                ]
+              },
+              "telecom": [
+                {
+                  "system": "phone",
+                  "value": "(816)234-6909",
+                  "use": "home"
+                }
+              ],
+              "address": {
+                "use": "home",
+                "line": [
+                  "456 Dove Street"
+                ],
+                "city": "NewYork",
+                "state": "NY",
+                "postalCode": "10005",
+                "country": "US"
+              }
+            }
+          ],
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/ValueSet/languages",
+                    "code": "eng"
+                  }
+                ]
+              },
+              "preferred": true
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/9b49676b-2057-45b4-8d65-bbfbd49b68dd",
+            "display": "Care Clinic"
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Patient",
+          "id": "db675d25-b10f-4bf2-8269-71545c8725db",
+          "meta": {
+            "versionId": "1.0",
+            "lastUpdated": "2021-02-04T07:07:04.895+00:00"
+          },
+          "extension": [
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-datasourceId-extension",
+              "valueString": "10001"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-extractionId-extension",
+              "valueString": "10001"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-datasetId-extension",
+              "valueString": "10001"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-interopxId-extension",
+              "valueString": "IX-PATIENT-Kz1p3b"
+            }
+          ],
+          "identifier": [
+            {
+              "use": "official",
+              "system": "urn:oid:2.16.840.1.113883.4.6",
+              "value": "1"
+            },
+            {
+              "use": "official",
+              "system": "urn:oid:2.16.840.1.113883.4.1",
+              "value": "123-101-5285"
+            }
+          ],
+          "name": [
+            {
+              "use": "usual",
+              "family": "Cole",
+              "given": [
+                "Kenneth"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "(816)276-6909",
+              "use": "home"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1973-02-16",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "1357 Amber Drive"
+              ],
+              "city": "Beaverton",
+              "state": "OR",
+              "postalCode": "97006",
+              "country": "US"
+            }
+          ],
+          "maritalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+              }
+            ]
+          },
+          "contact": [
+            {
+              "relationship": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                      "code": "O",
+                      "display": "Other"
+                    }
+                  ]
+                }
+              ],
+              "name": {
+                "family": "Jones",
+                "given": [
+                  "Ralph"
+                ]
+              },
+              "telecom": [
+                {
+                  "system": "phone",
+                  "value": "(816)276-6909",
+                  "use": "home"
+                }
+              ],
+              "address": {
+                "use": "home",
+                "line": [
+                  "1357 Amber Drive"
+                ],
+                "city": "Olympia",
+                "state": "WC",
+                "postalCode": "97006",
+                "country": "US"
+              }
+            }
+          ],
+          "communication": [
+            {
+              "language": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/ValueSet/languages",
+                    "code": "eng"
+                  }
+                ]
+              },
+              "preferred": true
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/2cb7e4e0-7157-4c98-8a50-9e67cd1d05b4",
+            "display": "Get Well Clinic"
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Patient",
+          "id": "518a7b38-c84d-42dd-8f07-1595f9e67c50",
+          "meta": {
+            "versionId": "2.0",
+            "lastUpdated": "2020-11-03T15:47:18.560+00:00",
+            "source": "#t3B6ILxsnAgTtQzs"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Nuclear, Ned. SSN:\n 444113456</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "1002-5",
+                    "display": "American Indian or Alaska Native"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Alaska Native"
+                }
+              ]
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-datasourceId-extension",
+              "valueString": "10002"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-extractionId-extension",
+              "valueString": "10002"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-datasetId-extension",
+              "valueString": "10002"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-interopxId-extension",
+              "valueString": "IX-PATIENT-XMS73L"
+            }
+          ],
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "444113456"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "ID",
+                    "display": "IDENTIFIER"
+                  }
+                ]
+              },
+              "system": "https://interopx:openemr/datasource",
+              "value": "1629018"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Nuclear",
+              "given": [
+                "Ned"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-555-5001",
+              "use": "work"
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1981-09-23",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "6666 Home Street"
+              ]
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/9e2477a0-3cd6-4bdc-b55f-f4530b7642c4"
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Patient",
+          "id": "effd5b22-edff-4152-9a19-dd3edf311bf0",
+          "meta": {
+            "versionId": "6.0",
+            "lastUpdated": "2020-11-03T16:02:41.651+00:00",
+            "source": "#V1svn4pn09XB184C"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Everywoman, Eve. SSN:\n 444222222</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2106-3",
+                    "display": "White"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "White"
+                }
+              ]
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-datasourceId-extension",
+              "valueString": "10002"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-extractionId-extension",
+              "valueString": "10002"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-datasetId-extension",
+              "valueString": "10002"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-interopxId-extension",
+              "valueString": "IX-PATIENT-bJtTNA"
+            }
+          ],
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "444222222"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "ID",
+                    "display": "IDENTIFIER"
+                  }
+                ]
+              },
+              "system": "https://interopx:openemr/datasource",
+              "value": "1629017"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Clinton",
+              "given": [
+                "Eve"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-555-2003",
+              "use": "work"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1974-05-31",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "2222 Home Street"
+              ]
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/254422af-9ae1-4153-9dd5-9613b9eca344"
+          },
+          "link": [
+            {
+              "other": {
+                "reference": "Patient/942e4440-18af-410e-9108-8375fa74f108"
+              },
+              "type": "seealso"
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Patient",
+          "id": "f402d0dd-685e-4c7a-871c-0119e1a3fded",
+          "meta": {
+            "versionId": "2.0",
+            "lastUpdated": "2020-11-03T15:44:26.273+00:00",
+            "source": "#NpDg9Vr4N80j56Qq"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Nuclear, Nelda. SSN:\n 444112345</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "1002-5",
+                    "display": "American Indian or Alaska Native"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "American Indian"
+                }
+              ]
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-datasourceId-extension",
+              "valueString": "10002"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-extractionId-extension",
+              "valueString": "10002"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-datasetId-extension",
+              "valueString": "10002"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-interopxId-extension",
+              "valueString": "IX-PATIENT-wgl34d"
+            }
+          ],
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "444112345"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "ID",
+                    "display": "IDENTIFIER"
+                  }
+                ]
+              },
+              "system": "https://interopx:openemr/datasource",
+              "value": "1629020"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Nuclear",
+              "given": [
+                "Nelda"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-555-5001",
+              "use": "work"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1980-11-10",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "6666 Home Street"
+              ]
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/8c084b6d-1f2d-4018-ba0c-107c88270ee3"
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Patient",
+          "id": "942e4440-18af-410e-9108-8375fa74f108",
+          "meta": {
+            "versionId": "6.0",
+            "lastUpdated": "2020-11-03T16:03:57.232+00:00",
+            "source": "#qQKDCGGE8gtr0SuI",
+            "tag": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+                "code": "HTEST",
+                "display": "More health data"
+              }
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: mom</p><p><b>meta</b>: </p><p><b>identifier</b>: Social Security number = 444222222</p><p><b>active</b>: true</p><p><b>name</b>: Eve Everywoman (OFFICIAL)</p><p><b>telecom</b>: ph: 555-555-2003(WORK)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 31/05/1973</p><p><b>address</b>: 2222 Home Street (HOME)</p><p><b>managingOrganization</b>: <a>Organization/hl7</a></p><h3>Links</h3><table><tr><td>-</td><td><b>Other</b></td><td><b>Type</b></td></tr><tr><td>*</td><td><a>RelatedPerson/newborn-mom</a></td><td>seealso</td></tr></table></div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2106-3",
+                    "display": "White"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "White"
+                }
+              ]
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-datasourceId-extension",
+              "valueString": "10002"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-extractionId-extension",
+              "valueString": "10002"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-datasetId-extension",
+              "valueString": "10002"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-interopxId-extension",
+              "valueString": "IX-PATIENT-bJtTNA"
+            }
+          ],
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "444222222"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "ID",
+                    "display": "IDENTIFIER"
+                  }
+                ]
+              },
+              "system": "https://interopx:openemr/datasource",
+              "value": "1629016"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Clinton",
+              "given": [
+                "Eve"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-555-2003",
+              "use": "work"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1974-05-31",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "2222 Home Street"
+              ]
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/8c084b6d-1f2d-4018-ba0c-107c88270ee3"
+          },
+          "link": [
+            {
+              "other": {
+                "reference": "Patient/effd5b22-edff-4152-9a19-dd3edf311bf0"
+              },
+              "type": "seealso"
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Patient",
+          "id": "327994fb-25da-451b-bd14-628dee412823",
+          "meta": {
+            "versionId": "3.0",
+            "lastUpdated": "2020-11-03T15:46:57.808+00:00",
+            "source": "#HzbXMtLOF7zPwFB6"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Mum, Martha. SSN:\n 444666666</div>"
+          },
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+              "extension": [
+                {
+                  "url": "ombCategory",
+                  "valueCoding": {
+                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                    "code": "2028-9",
+                    "display": "Asian"
+                  }
+                },
+                {
+                  "url": "text",
+                  "valueString": "Asian"
+                }
+              ]
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-datasourceId-extension",
+              "valueString": "10002"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-extractionId-extension",
+              "valueString": "10002"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-datasetId-extension",
+              "valueString": "10002"
+            },
+            {
+              "url": "http://interopx.com/fhir/StructureDefinition-interopxId-extension",
+              "valueString": "IX-PATIENT-qwUN1X"
+            }
+          ],
+          "identifier": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "MR"
+                  }
+                ]
+              },
+              "system": "http://hl7.org/fhir/sid/us-ssn",
+              "value": "444666666"
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "ID",
+                    "display": "IDENTIFIER"
+                  }
+                ]
+              },
+              "system": "https://interopx:openemr/datasource",
+              "value": "1629022"
+            }
+          ],
+          "active": true,
+          "name": [
+            {
+              "use": "official",
+              "family": "Jordan",
+              "given": [
+                "Martha"
+              ]
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "555-555-2006",
+              "use": "work"
+            }
+          ],
+          "gender": "female",
+          "birthDate": "1970-12-31",
+          "address": [
+            {
+              "use": "home",
+              "line": [
+                "4444 Home Street"
+              ]
+            }
+          ],
+          "managingOrganization": {
+            "reference": "Organization/254422af-9ae1-4153-9dd5-9613b9eca344"
+          }
+        }
+      }
+    ]
+  }
