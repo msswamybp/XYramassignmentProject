@@ -8,20 +8,29 @@ import Demopage from './../screens/Demopage'
 import Drawerpage from './../screens/Drawerpage'
 import Homepage from './../screens/Homepage'
 import HomeDetaile from './../screens/HomeDetaile'
+import Parenttochild from './../screens/Parenttochild'
+
 const Drawer = createDrawerNavigator({
+    Parenttochild: {
+        screen: Parenttochild,
+        navigationOptions: { header: null, gesturesEnabled: false }
+    },
+
+    AboutPage: {
+        screen: AboutPage,
+        navigationOptions: { header: null, gesturesEnabled: false }
+    },
+
+    HomeDetaile: {
+        screen: HomeDetaile,
+        navigationOptions: { header: null, gesturesEnabled: false }
+    },
 
     Homepage: {
         screen: Homepage,
         navigationOptions: { header: null, gesturesEnabled: false }
     },
-    AboutPage: {
-        screen: AboutPage,
-        navigationOptions: { header: null, gesturesEnabled: false }
-    },
-    HomeDetaile: {
-        screen: HomeDetaile,
-        navigationOptions: { header: null, gesturesEnabled: false }
-    },
+
 
     Demopage: {
         screen: Demopage,

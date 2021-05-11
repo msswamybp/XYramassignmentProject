@@ -1,10 +1,7 @@
 import React, { Component } from "react";
-import { View, Text, TouchableOpacity } from 'react-native'
-class CardComponent extends CardComponent {
-    componentWillReceiveProps() {
-        console.log('componentWillReceiveProps');
+import { View, Text, TouchableOpacity, Image } from 'react-native'
+class CardComponent extends Component {
 
-    }
 
     render() {
         return (
@@ -13,11 +10,13 @@ class CardComponent extends CardComponent {
                 <View style={{ alignItems: 'center', justifyContent: 'center', alignSelf: 'center' }} >
                     <TouchableOpacity
                         onPress={() => {
-                            //  this.props.navigation.navigate('Homepage')
+                            this.props.navigation.navigate('HomeDetaile')
                         }}>
-                        <Text style={{ fontSize: 30 }}>
-                            go to home
-                        </Text>
+                        <Image
+                            source={{
+                                uri: this.props.resource
+                            }}
+                            style={{ width: 400, height: 400 }} />
                     </TouchableOpacity>
                 </View>
             </View>

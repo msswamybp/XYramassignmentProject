@@ -8,6 +8,12 @@ target 'Swamy' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+  pod 'react-native-fingerprint-scanner', :path => '../node_modules/react-native-fingerprint-scanner'
+
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
+  pod 'react-native-geolocation-service', :path => '../node_modules/react-native-geolocation-service'
+
   target 'SwamyTests' do
     inherit! :complete
     # Pods for testing
